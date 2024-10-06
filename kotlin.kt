@@ -1,13 +1,13 @@
-## Hello World
+** Hello World **
 fun main() {
     println("Hello, World!")
 }
 
-## Variabel
+** Variabel **
 val name: String = "Alice"
 var age: Int = 25
 
-## Function
+** Function **
 fun tambah(a: Int, b: Int): Int {
   return a + b
 }
@@ -15,7 +15,7 @@ fun tambah(a: Int, b: Int): Int {
 //Fungsi dengan single-line expression
 fun kali(a: Int, b: Int) = a * b
 
-##Kondisional
+** Kondisional **
 fun nilaiUjian(nilai: Int): String {
     return if (nilai >= 90) {
         "A"
@@ -26,5 +26,18 @@ fun nilaiUjian(nilai: Int): String {
     } else {
         "D"
     }
+}
+
+** Loop **
+//for
+for (i in 1..5) {
+    println(i) // Mencetak angka 1 sampai 5
+}
+
+//while
+var x = 5
+while (x > 0) {
+    println(x)
+    x--
 }
         
