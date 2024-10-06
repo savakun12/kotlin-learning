@@ -12,3 +12,7 @@ fun tambah(a: Int, b: Int): Int {
   return a + b
 }
 
+//Fungsi dengan single-line expression
+fun kali(a: Int, b: Int) = a * b
+
+
