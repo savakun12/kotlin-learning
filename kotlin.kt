@@ -66,4 +66,12 @@ fun main() {
     println(applyOperation(3, 5, sum)) // Output 8
 }
 
+//Extension function
+fun String.hello() {
+    println("Hello, $this!")
+}
+
+fun main() {
+    "Kotlin".hello()//Output: Hello, Kotlin!
+}
 
