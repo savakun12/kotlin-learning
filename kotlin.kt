@@ -57,3 +57,13 @@ fun main() {
     println(user) //Output: User(name=Alice, age=28)
 }
 
+//Lambda dan Higher-Order Function
+val sum = { a: Int, b: Int, operation: (Int, Int) -> Int): Int {
+    return operation(a, b)
+}
+
+fun main() {
+    println(applyOperation(3, 5, sum)) // Output 8
+}
+
+
