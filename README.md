@@ -159,7 +159,3 @@ fun main() {
 ## Lisensi
 
 Proyek ini dirilis di bawah lisensi MIT. Silakan lihat file LICENSE untuk informasi lebih lanjut.
-
-```
-
-Silakan sesuaikan bagian-bagian tertentu dari README ini sesuai kebutuhan proyekmu, seperti menambahkan informasi lisensi, kontributor, atau instruksi tambahan. Jika ada yang ingin ditambahkan atau diubah, beri tahu saja!
